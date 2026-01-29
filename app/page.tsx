@@ -15,7 +15,7 @@ export default function Home() {
         />
         <div className="hero-content">
           <Menu />
-          <h1 className="hero-title">Welcome to My Store</h1>
+          <h1 className="hero-title">GET START  FOUR FAVRIT SHOPING</h1>
         </div>
       </div>
     </div>
