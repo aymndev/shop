@@ -1,0 +1,57 @@
+#my-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+
+}
+
+#my-menu nav {
+    display: flex;
+    gap: 30px;
+}
+#my-menu nav :hover{
+    text-decoration: underline;
+}
+
+#my-input {
+    display: flex;
+    /* row layout */
+    align-items: center;
+    /* vertical center */
+    gap: 10px;
+    /* space between elements */
+    flex-direction: row;
+    /* default, but make sure */
+}
+
+
+#my-input input {
+    padding: 6px 10px;
+    color: black;
+    width: 450px;
+    border: 2px solid #1b1b1b;
+    /* light grey border */
+    border-radius: 5px;
+    /* rounded corners */
+    outline: none;
+}
+button{
+    border:2px solid black;
+}
+
+#my-input img {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+#my-input button {
+    padding: 6px 12px;
+    cursor: pointer;
+}
+img {
+    padding-left:px ;
+    margin: 0 0 0 30px;
+}
