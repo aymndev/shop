@@ -10,7 +10,7 @@ export default function Menu() {
     return (
         <div id="my-container">
             <div id="my-menu">
-                <nav>
+                <nav className=" w-full bg-transparent absolute top-0 left-0 z-20">
                     <Link href="/">Home</Link>
                     <Link href="/shop">Shop</Link>
                     <Link href="/about">About</Link>
@@ -20,6 +20,7 @@ export default function Menu() {
             <div id="my-input">
                 <button>All Catrgoty</button>
                 <input
+                    className="ml-[15px] !border-0"
                     type="text"
                     value={search}
                     placeholder="Search products..."
