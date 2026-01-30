@@ -1,6 +1,5 @@
 
 
-import Menu from "../app/components/Menu";
 import { Bebas_Neue, Montserrat, Noto_Sans, Zalando_Sans_Expanded } from 'next/font/google';
 
 const bebasNeue = Bebas_Neue({ subsets: ['latin'], weight: '400', variable: '--font-bebas' });
@@ -13,7 +12,8 @@ const zalandoSans = Zalando_Sans_Expanded({ subsets: ['latin'], variable: '--fon
 export default function Home() {
   return (
     <div
-      className="relative h-[760px] bg-cover bg-center"
+  // import Menu from "../app/components/Menu";
+      className="relative h-[600px] bg-cover bg-center"
       
       style={{
         
@@ -30,7 +30,6 @@ export default function Home() {
 
         {/* CONTENT ON TOP */}
         <div className="relative z-10">
-          <Menu />
           <section className="h-[550px]  mr-[880px] flex items-center justify-center text-white">
             <h1 className="text-[#FFFFFF] text-6xl tracking-wide leading-relaxed uppercase">GET START YOUR FAVRIOT SHOPINF</h1>
           </section>

@@ -20,16 +20,18 @@
     gap: 30px;
     justify-content:center;/* change this */
     padding-right: 80px;
+    border: #ffffff;
 }
 
 #my-menu nav a {
     text-decoration: none;
-    color: black;
+    color: white;
+    
 }
 
 #my-menu nav a:hover {
     text-decoration: underline;
-    color:white;
+    
     
 }
 
@@ -53,15 +55,15 @@
 
 #my-input button {
     /* green background */
-    background-color: black;
-    color: white;               /* text color */
+    background-color: white;
+    color: black;               /* text color */
     padding: 9px 17px;
     cursor: pointer;
     border: none;
     border-radius: 5px;         /* optional rounded corners */
 }
 #my-input button :hover{
-    background-color: #ffffff;
+    background-color: #a72222;
     color:black;
 }
 
