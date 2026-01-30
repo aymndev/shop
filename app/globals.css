@@ -6,6 +6,19 @@
   --background: #ffffff;
   --foreground: #171717;
 }
+/* Reset and make sure the Next.js root element is included. */
+html, body, #__next {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+/* Make all elements inherit box-sizing for easier layout handling */
+*, *::before, *::after {
+  box-sizing: inherit;
+}
 
 @theme inline {
   --color-background: var(--background);
@@ -25,4 +38,26 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* globals.css */
+
+/* default font for body */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* heading font */
+h1, h2, h3 {
+  font-family: 'Bebas Neue', cursive;
+}
+
+/* paragraphs */
+p {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+/* buttons */
+button {
+  font-family: 'Zalando Sans Expanded', sans-serif;
 }
