@@ -30,7 +30,7 @@ export default function ShopPage() {
             <p className="text-center text-gray-600 text-lg">Loading products...</p>
           </div>
         ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+          <div className="grid grid-cols-3 gap-3 ml-[5px]">
             {products.map(product => (
               <ProductCard
                 key={product.id}
