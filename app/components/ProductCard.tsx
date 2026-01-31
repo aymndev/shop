@@ -7,11 +7,11 @@ interface ProductCardProps {
 
 export default function ProductCard({ title, price, category, image }: ProductCardProps) {
   return (
-    <div className=" group relative max-w-sm bg-white border border-gray-100 rounded-2xl shadow-sm overflow-hidden hover:shadow-xl transition-all duration-300">
+    <div className="mb-[25px] group relative bg-black border mr-[100px] ml-[100px] hover:shadow-xl transition-all duration-300">
       
       {/* Badge Catégorie (en haut à gauche) */}
       <div className="absolute top-3 left-3 z-10">
-        <span className="bg-white/90 backdrop-blur-sm text-gray-700 text-[10px] font-bold uppercase tracking-widest px-2 py-1 rounded-md shadow-sm">
+        <span className="  text-3xl bg-white/90 backdrop-blur-sm text-gray-700 text-[10px] font-bold uppercase tracking-widest px-2 py-1 rounded-md shadow-sm">
           {category}
         </span>
       </div>
